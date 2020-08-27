@@ -5,7 +5,58 @@
 public class Jeroo extends JerooBase {
     // Put your own methods here
     
-    
+
+
+
+    public void rcorner(){
+      hop();
+      turn(RIGHT);
+      hop();
+      plant();
+      turn(LEFT);
+    }
+
+    public void lcorner(){
+      hop();
+      turn(LEFT);
+      hop();
+      plant();
+      turn(RIGHT);
+    }
+
+    public void backup(){ 
+      turn(RIGHT);
+      turn(RIGHT);
+      hop();
+      hop();
+      plant();
+    }
+
+    public void spin(){
+      
+      turn(RIGHT);
+      turn(RIGHT);
+    }
+
+    public void setupBowling(){
+      rcorner();
+      rcorner();
+      rcorner();
+      rcorner();
+      lcorner();
+      lcorner();
+      lcorner();
+      backup();
+      hop();
+      hop();
+      plant();
+      spin();
+      rcorner();
+      turn(RIGHT);
+      hop();
+      hop();
+      hop();
+    }
     
     
     

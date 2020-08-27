@@ -16,6 +16,9 @@ public class Main implements Directions {
     /**
      * Put your main Jeroo code here.
      */
+     
+
+
     public static void runJerooCode() {
        Jeroo jeroo = new Jeroo(0, 0, 100);
        jeroo.setupBowling();
